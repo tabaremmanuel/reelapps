@@ -229,10 +229,10 @@ p{
 
 /* OVERRIDES */
 .flex-control-paging li a:hover{background-color:transparent}
-.flex-control-paging li a{border:1px solid #fff;background-color:transparent;height:13px;width:13px;}
+.flex-control-paging li a{border:1px solid #fff;background-color:#fff;height:13px;width:13px;}
 .flexslider .slides li{text-align: center;}
 .flex-control-nav li{margin:0 3px;}
-.flex-control-paging li a.flex-active{background-color:#fff;}
+.flex-control-paging li a.flex-active{background-color:transparent;}
 body .flexslider .flex-direction-nav a{opacity:1;top:45%;}
 body .flexslider .flex-direction-nav .flex-prev{left:0!important;background:url(images/prev.png) no-repeat center center;}
 body .flexslider .flex-direction-nav .flex-next{right:0!important;background:url(images/next.png) no-repeat center center;}
