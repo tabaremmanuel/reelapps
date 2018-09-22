@@ -222,6 +222,57 @@ p{
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8543', endColorstr='#f23141',GradientType=1 ); /* IE6-9 */
 }
 
+.container-3{
+  background-image: url(images/contact-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top:84px;
+  padding-bottom:39px;
+  text-align:center;
+}
+.request-a-demo h3{
+  font-weight: 800;
+  text-align: left;
+}
+.request-a-demo select,
+.request-a-demo input[type='email'],
+.request-a-demo input[type='text']{
+  display:block;
+  border:0;
+  border-bottom: 1px solid #707070;
+  width:100%;
+  background-color: transparent;
+  border-radius:0;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0px;
+  font-size:14px;
+  margin-top:95px;
+}
+.request-a-demo a{
+  color:#f85842;
+  font-size: 18px;
+  font-weight: 800;
+}
+.request-a-demo span{
+  display:block;
+  font-weight: 400;
+  font-size: 14px;
+}
+.request-a-demo input[type="submit"]{
+  margin-top:39px;
+  margin-bottom:26px;
+  max-width:274px;
+  padding: 22px 0;
+}
+.request-a-demo{
+  background-color: #fff;
+  border-radius: 8px;
+  max-width:684px;
+  width:100%;
+  display:inline-block;
+  padding: 64px;
+}
+
 @media(min-width: 1200px){
   .container{max-width:1285px;}
 }
